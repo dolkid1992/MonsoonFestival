@@ -33,17 +33,17 @@
 
 .info {
     height: 100%;
-    width: 33%;
-    border: #FF8000 solid 0.1px;
+    width: 30%;
+    /*border: #FF8000 solid 0.1px;*/
     float: left;
     background: white;
-
+    margin-left: 3%;
 }
 
 /*.info button {*/
-    /*position: absolute;*/
-    /*bottom: 0;*/
-    /*left: 0;*/
+/*position: absolute;*/
+/*bottom: 0;*/
+/*left: 0;*/
 /*}*/
 
 .info img {
@@ -71,6 +71,7 @@
     line-height: 28px;
     letter-spacing: 1px;
 }
+
 .subInfo a:hover {
     color: orangered;
 }
@@ -84,11 +85,27 @@
     text-align: center;
     display: inline-block;
     padding: 12px 24px;
-    color:white ;
+    color: white;
     background-color: forestgreen;
     border-radius: 10%;
 }
+
 .subInfo button:hover {
-    background-color:coral;
+    background-color: coral;
     color: white;
+}
+
+.info img {
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+.info img:hover {
+    transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    -moz-transform: scale(1.5, 1.5);
+    -o-transform: scale(1.5, 1.5);
+    -ms-transform: scale(1.5, 1.5);
 }
