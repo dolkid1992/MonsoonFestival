@@ -44,7 +44,6 @@
     position: absolute;
     bottom: 50px;
     left: 27%;
-    letter-spacing: 1px;
     line-height: 50px;
     text-align: center;
     font-size: 30px;
@@ -124,5 +123,4 @@
 .event3 .img img{
     width: 670px;
     height: 136px;
-
 }

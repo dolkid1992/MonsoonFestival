@@ -1,12 +1,14 @@
-.container{
+.container {
     height: 3000px;
 }
-.container .header{
+
+.container .header {
     position: relative;
     width: auto;
     height: 410px;
 }
-.header .time{
+
+.header .time {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 20%;
@@ -16,30 +18,35 @@
     opacity: 0.7;
     position: absolute;
 }
-.time a{
+
+.time a {
     color: #FFFFFF;
 }
-.header img{
+
+.header img {
     position: absolute;
     left: 30%;
     bottom: 60px;
     width: 550px;
     height: auto;
 }
-.header .titlea{
+
+.header .titlea {
     letter-spacing: 4px;
     color: #FFFFFF;
-    font-size: 55px;
     bottom: 1px;
-    left: 27%;
+    left: 22%;
     position: absolute;
+    font-size: 70px
 }
-.title{
+
+.title {
     position: relative;
     height: 250px;
     width: auto;
 }
-.title p{
+
+.title p {
     position: absolute;
     bottom: 50px;
     left: 27%;
@@ -49,89 +56,104 @@
     font-size: 30px;
     color: #FFFFFF;
 }
-.event1{
+
+.event1 {
     padding: 20px;
     width: 100%;
     height: 750px;
 
 }
-.event1 .e1-1{
+
+.event1 .e1-1 {
     width: 47%;
     height: auto;
     float: left;
 }
-.e1-1 p{
+
+.e1-1 p {
     padding-top: 30px;
     line-height: 20px;
     color: #FFFFFF;
     letter-spacing: 2px;
 }
-.event1 .e1-2{
+
+.event1 .e1-2 {
     margin-left: 10px;
     width: 51%;
     height: auto;
     float: left;
 }
-.e1-2 img{
-    width: 679px ;
+
+.e1-2 img {
+    width: 679px;
     height: 459px;
     box-shadow: 0px 0px 5px #f3f3f3;
 }
 
-.event2{
+.event2 {
     padding: 20px;
     width: 100%;
     height: 750px;
 
 }
-.event2 .e2-1{
+
+.event2 .e2-1 {
     width: 47%;
     height: auto;
     float: left;
 }
-.e2-2 p{
+
+.e2-2 p {
     padding-top: 30px;
     line-height: 20px;
     color: #FFFFFF;
     letter-spacing: 2px;
 }
-.event2 .e2-2{
+
+.event2 .e2-2 {
     margin-left: 10px;
     width: 51%;
     height: auto;
     float: left;
 }
-.e2-1 img{
-    width: 679px ;
+
+.e2-1 img {
+    width: 679px;
     height: 459px;
     box-shadow: 0px 0px 5px #f3f3f3;
 }
-.event3{
+
+.event3 {
     width: 100%;
     height: 900px;
 }
-.event3 p{
+
+.event3 p {
     color: #FFFFFF;
     line-height: 28px;
     letter-spacing: 1px;
 }
-.event3 .p1{
+
+.event3 .p1 {
     margin-right: 20px;
     height: auto;
     width: 49%;
     float: left;
 }
-.event3 .p2{
+
+.event3 .p2 {
     height: auto;
     width: 49%;
     float: left;
 }
-.event3 .img{
 
+.event3 .img {
+    clear: both;
     padding-top: 490px;
     padding-left: 290px;
 }
-.event3 .img img{
+
+.event3 .img img {
     width: 670px;
     height: 136px;
 
