@@ -1,12 +1,14 @@
-.container{
+.container {
     height: 1750px;
 }
-.container .header{
+
+.container .header {
     position: relative;
     width: auto;
     height: 390px;
 }
-.header .time{
+
+.header .time {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 20%;
@@ -16,24 +18,37 @@
     opacity: 0.7;
     position: absolute;
 }
-.time a{
+
+.time a {
     color: #FFFFFF;
 }
-.header img{
+
+.header img {
     position: absolute;
     left: 25%;
     bottom: 60px;
     width: 550px;
     height: auto;
 }
-.title{
+
+.header h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 100;
+    position: absolute;
+    top: 200px;
+    left: 27%;
+}
+
+.title {
     margin-top: 100px;
     position: relative;
     height: 300px;
     width: auto;
     margin-bottom: 100px;
 }
-.title p{
+
+.title p {
     position: absolute;
     bottom: 50px;
     letter-spacing: 1px;
@@ -42,12 +57,14 @@
     font-size: 18px;
     color: #FFFFFF;
 }
-.event1{
+
+.event1 {
     padding-top: 130px;
 
     width: 100%;
     height: 730px;
 }
+
 .event1 .even1-1 {
 
     width: 44%;
@@ -55,30 +72,36 @@
     float: left;
     color: #FFFFFF;
 }
-.even1-1 h2{
+
+.even1-1 h2 {
     padding-bottom: 30px;
 }
-.even1-1 p{
+
+.even1-1 p {
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 1px;
     margin-right: 10px;
 }
-.event1 .even1-2{
+
+.event1 .even1-2 {
 
     width: 54%;
     height: auto;
     float: left;
     padding-left: 10px;
 }
-.even1-2 img{
+
+.even1-2 img {
     box-shadow: 0px 0px 5px #f3f3f3;
 }
-.event2{
+
+.event2 {
 
     width: 100%;
     height: 700px;
 }
+
 .event2 .event2-1 {
 
     width: 54%;
@@ -86,9 +109,11 @@
     float: left;
     color: #FFFFFF;
 }
-.event2-1 img{
+
+.event2-1 img {
     box-shadow: 0px 0px 5px #f3f3f3;
 }
+
 .event2 .event2-2 {
 
     width: 44%;
@@ -96,32 +121,38 @@
     float: left;
     color: #FFFFFF;
 }
-.event3{
+
+.event3 {
 
     width: 100%;
     height: 900px;
 }
-.event3 p{
+
+.event3 p {
     color: #FFFFFF;
     line-height: 28px;
     letter-spacing: 1px;
 }
-.event3 .p1{
+
+.event3 .p1 {
     height: auto;
     width: 49%;
     float: left;
 }
-.event3 .p2{
+
+.event3 .p2 {
     height: auto;
     width: 49%;
     float: left;
 }
-.event3 .img{
+
+.event3 .img {
 
     padding-top: 490px;
     padding-left: 290px;
 }
-.event3 .img img{
+
+.event3 .img img {
     width: 670px;
     height: 136px;
 
