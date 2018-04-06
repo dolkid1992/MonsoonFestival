@@ -4,9 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link href="css/cssLayout.css" rel="stylesheet" type="text/css"/>
     <link href="css/shop.css" rel="stylesheet" type="text/css"/>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,400,400i,600,700&amp;subset=vietnamese"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body{
+        body {
             background-image: url("images/bg.jpg");
         }
     </style>
@@ -73,14 +75,15 @@
         </div>
         <div class="menu">
             <div class="select">
-                <div class="s1">
+                <a href="#" style="text-decoration: none" onclick="return select()"><div class="s1">
                     <h3>EARLY BIRD</h3>
                     <a>17/9 - 24/9/2017</a>
-                </div>
-                <div class="s2">
+                </div></a>
+                <a href="#" style="text-decoration: none" onclick="return remove()">
+                    <div class="s2">
                     <h3>ONLINE SALES</h3>
                     <a>17/9 - 24/9/2017</a>
-                </div>
+                </div></a>
                 <div class="s3">
                     <h3>OFFLINE SALES</h3>
                     <a>---</a>
@@ -89,20 +92,75 @@
             <div class="content">
                 <div class="c1">
                     <div>
-                        <a>VÉ THƯỜNG</a>
-                        <a>330.000 VND</a>
-                        <div></div>
+                        <br>
+                        <a class="name_event" id="vethuong">VÉ THƯỜNG</a><br>
+                        <a class="money">330.000 VND</a><br>
+                        <div class="thongtin">
+                            <br>
+                            <a>Tham gia 1 ngày trong sự kiện </a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Được vào khu Fanzone</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Tầm quan sát thông thường</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Khu vực dành riêng x</a>
+                            <a id="enony1"></a>
+                        </div>
+                        <a class="submit_buy">MUA NGAY</a>
                     </div>
                 </div>
                 <div class="c2">
-
+                    <div>
+                        <br>
+                        <a class="name_event">VÉ THƯỜNG</a><br>
+                        <a class="money">330.000 VND</a><br>
+                        <div class="thongtin">
+                            <br>
+                            <a>Tham gia 1 ngày trong sự kiện </a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Được vào khu Fanzone</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Tầm quan sát thông thường</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Khu vực dành riêng x</a>
+                            <a id="enony2"></a>
+                        </div>
+                        <a class="submit_buy">MUA NGAY</a>
+                    </div>
                 </div>
                 <div class="c3">
-
+                    <div>
+                        <br>
+                        <a class="name_event">VÉ THƯỜNG</a><br>
+                        <a class="money">330.000 VND</a><br>
+                        <div class="thongtin">
+                            <br>
+                            <a>Tham gia 1 ngày trong sự kiện </a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Được vào khu Fanzone</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Tầm quan sát thông thường</a><i class="fa fa-check-circle" style="font-size:22px;color: #65ac4c"></i><br>
+                            <a>Khu vực dành riêng x</a>
+                            <a id="enony3"></a>
+                        </div>
+                        <a class="submit_buy">MUA NGAY</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </article>
+<script>
+    var element1 = document.getElementById("enony1");
+    var element2 = document.getElementById("enony2");
+    var element3 = document.getElementById("enony3");
+    var vethuong   = document.getElementById("vethuong");
+    function select () {
+        element1.innerHTML = "<br><a>Chi phí tối ưu</a><i class=\"fa fa-check-circle\" style=\"font-size:22px;color: #65ac4c\"></i>";
+        element2.innerHTML = "<br><a>Chi phí phí tiết kiệm nhất</a><i class=\"fa fa-check-circle\" style=\"font-size:22px;color: #65ac4c\"></i>";
+        element3.innerHTML = "<br><a>Miễn phí đồ uống</a><i class=\"fa fa-check-circle\" style=\"font-size:22px;color: #65ac4c\"></i>";
+        console.log('test');
+        console.log(vethuong.innerText);
+        vethuong.innerHTML = "VÉ 10/11(DAY)1";
+    }
+    function  remove() {
+        element1.innerHTML = "";
+        element2.innerHTML = "";
+        element3.innerHTML = "";
+        vethuong.innerHTML = "VÉ THƯỜNG";
+    }
+</script>
 </body>
 </html>
