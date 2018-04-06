@@ -1,5 +1,5 @@
 .container{
-    height: 2000px;
+    height: 1600px;
 }
 .container .header{
     border: 1px solid red;
@@ -29,8 +29,7 @@
 }
 .container .menu{
     position: relative;
-    height: 650px;
-    border: 1px solid red;
+    height: 610px;
 }
 .menu .select{
     position: absolute;
@@ -167,6 +166,66 @@
     height: 250px;
 }
 .content .submit_buy{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+}
+.menu-combo{
+    width: 1300px;
+    margin-left: 150px;
+    height: 700px;
+}
+.menu-combo h2{
+    color: #FFFFFF;
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menu-combo .combo{
+    position: relative;
+    margin: 5px;
+    width: 260px;
+    height: 430px;
+    float: left;
+}
+
+.combo .c1-1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.combo a{
+    color: #FFFFFF;
+    z-index: 1;
+    font-size: 25px;
+    font-weight: bold;
+}
+.combo img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.combo .c1-2{
+    padding-left: 5px;
+    position: absolute;
+    top: 120px;
+    background: #FFFFFF;
+    width: 240px;
+    height: 260px;
+    left: 8px;
+}
+.c1-2 a{
+    letter-spacing: 1.5px;
+    font-weight: inherit;
+    line-height: 40px;
+    font-size: 16px;
+    color: #0c0c0c;
+    background: #FFFFFF;
+}
+.muangay{
+    position: absolute;
+    bottom: 7px;
+    left: 55px;
     color: #FFFFFF;
     font-size: 28px;
     font-weight: bold;
