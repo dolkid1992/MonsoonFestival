@@ -10,18 +10,32 @@
     <style>
         body {
             background-image: url("images/background_2014.jpg");
-            width: 100%;
-            height: 100%;
         }
 
         @media all and (max-width: 414px) {
             body {
-                background-attachment: scroll;
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
                 text-align: justify;
             }
 
             .header .titlea {
-                font-size: 65px;
+                font-size: 30px;
+                left: 2%;
+                top: 250px;
+            }
+
+            .header {
+                width: 414px;
+            }
+
+            .header img {
+                position: absolute;
+                bottom: 200px;
+                width: 414px;
+                height: auto;
+                left: 0%;
             }
 
             .time a {
@@ -36,17 +50,22 @@
                 font-size: 20px;
             }
 
+            .title {
+                position: relative;
+                width: 414px;
+            }
+
             .title p {
-                font-size: 40px;
+                font-size: 20px;
                 line-height: 70px;
                 position: absolute;
-                bottom: 50px;
-                left: 20%;
+                bottom: 100px;
+                left: 40px;
             }
 
             article {
-                width: 100%;
-                margin-left: 0%;
+                width: 414px;
+                margin: 0px;
             }
 
             .event1 {
@@ -54,13 +73,19 @@
             }
 
             .event1 .e1-1 {
-                width: 100%;
+                width: 414px;
                 clear: both;
             }
 
-            .event1 .e1-1 p {
+            .landautien {
                 font-size: 40px;
-                line-height: 70px;
+            }
+            .lanthu2 {
+                font-size: 30px;
+            }
+            .event1 .e1-1 p {
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
@@ -71,9 +96,9 @@
             }
 
             .event1 .e1-2 img {
-                width: 1000px;
+                width: 400px;
                 height: auto;
-                padding: 10%;
+                padding: 3%;
                 box-shadow: none;
             }
 
@@ -81,7 +106,7 @@
                 padding: 0px;
                 clear: both;
                 width: 100%;
-                height: 50%;
+                height: 35%;
             }
 
             .event2 .e2-1 {
@@ -96,43 +121,44 @@
             }
 
             .event2 .e2-1 img {
-                width: 1000px;
+                width: 400px;
                 height: auto;
-                padding: 20%;
+                padding: 3%;
                 box-shadow: none;
             }
 
             .event2 .e2-2 p {
-                font-size: 40px;
-                line-height: 70px;
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
             .event3 {
                 width: 100%;
                 clear: both;
-                padding-top: 100px;
-
             }
 
             .event3 p {
-                font-size: 40px;
-                line-height: 70px;
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
             .event3 .img {
                 padding-top: 100px;
-                padding-left: 150px;
+                padding-left: 0px;
             }
 
             .event3 .img img {
-                width: 1000px;
+                width: 300px;
                 height: auto;
+                padding-left: 50px;
             }
 
             .event3 .img a {
-                padding-left: 200px;
+                padding-left: 10px;
+                font-size: 30px;
+                padding-left: 40px;
             }
         }
     </style>
@@ -203,8 +229,8 @@
         </div>
         <div class="event1">
             <div class="e1-1">
-                <a style="font-size: 80px;color: #FFFFFF;font-weight: 200">Lần đầu tiên</a><br>
-                <a style="font-size: 40px;color: #FFFFFF;font-weight: 200">TẠI TRUNG TÂM HÀ NỘI</a>
+                <a class="landautien">Lần đầu tiên</a><br>
+                <a class="lanthu2">TẠI TRUNG TÂM HÀ NỘI</a>
                 <p>
                     có một festival âm nhạc quốc tế diễn ra trong vòng 3 ngày theo mô hình các Lễ hội Âm nhạc & Văn hoá
                     nổi
@@ -219,15 +245,15 @@
                 <img src="images/anh1_2014.jpg"/>
             </div>
         </div>
-        <div><a style="font-size: 90px;color: #FFFFFF;line-height: 1em;font-weight: 200;">Monsoon Music Festival
+        <div><a class="landautien">Monsoon Music Festival
             2014</a></div>
         <div class="event2">
             <div class="e2-1">
                 <img src="images/anh2_2014.jpg"/>
             </div>
             <div class="e2-2">
-                <a style="font-size: 60px;color: #FFFFFF">Trong 04 ngày</a>
-                <a style="font-size: 40px;color: #FFFFFF">21 - 22 - 23 / 10 / 2015</a><br>
+                <a class="landautien">Trong 04 ngày</a><br>
+                <a class="lanthu2">21 - 22 - 23 / 10 / 2015</a><br>
                 <p>
                     đến từ Đan Mạch, Anh, Pháp, Bỉ, Hàn Quốc và Nhật Bản. Trong đó có nhiều nghệ sĩ đến Việt Nam với một
                     ê
@@ -256,7 +282,7 @@
                 tạo và
                 có giá trị.</p>
             <div class="img"><img src="images/LOGO_MMF_2016.png"><br>
-                <a style="font-size: 55px;color: #FFFFFF">MUSIC FESTIVAL 2014</a>
+                <a>MUSIC FESTIVAL 2014</a>
             </div>
         </div>
 
