@@ -136,7 +136,9 @@ span {
 
 @media all and (max-width: 414px) {
     body {
-        background-attachment: scroll;
+        max-width: 414px;
+        margin: 0px;
+        min-width: 414px;
         text-align: justify;
     }
 
@@ -144,15 +146,15 @@ span {
         display: none;
     }
 
+    .container {
+        padding-left: 0px;
+    }
+
     .header h1 {
         font-size: 70px;
         position: absolute;
         top: 300px;
         left: 20%;
-    }
-
-    .header img {
-        width: 700px;
     }
 
     .title p {
@@ -173,22 +175,23 @@ span {
     }
 
     .details1 p {
-        font-size: 40px;
-        line-height: 80px;
+        font-size: 15px;
+        line-height: 40px;
     }
 
     .details1 h4 {
-        font-size: 100px;
+        font-size: 30px;
     }
 
     .details1 span {
-        font-size: 70px;
+        font-size: 25px;
     }
 
     .details2 {
         clear: both;
         width: 95%;
         height: 100%;
+        margin: 0;
     }
 
     .details2 img {
@@ -197,31 +200,31 @@ span {
     }
 
     #lo1 {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
     }
 
     #lo1 a {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     #lo2 {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
     }
 
     #lo2 img {
-        width: 60px;
-        height: 60px;
+        width: 25px;
+        height: 25px;
     }
 
     #lo3 {
-        width: 100px;
-        height: 100px;
+        width: 40px;
+        height: 40px;
     }
 
     #lo3 img {
-        width: 60px;
-        height: 60px;
+        width: 22px;
+        height: 22px;
     }
 }

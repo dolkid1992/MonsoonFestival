@@ -14,32 +14,41 @@
             height: 100%;
         }
 
+
         @media all and (max-width: 414px) {
             body {
-                background-attachment: scroll;
+                max-width: 414px;
+                margin: 0px;
+                min-width: 414px;
                 text-align: justify;
             }
 
             .time a {
                 display: none;
             }
-            .header img{
-                width:800px;
+
+            .header {
+                width: 414px;
             }
+
+            .header img {
+                position: absolute;
+                bottom: 200px;
+                width: 400px;
+                height: auto;
+                left: 2%;
+            }
+
             .relative {
                 display: none;
             }
 
-            .text-uppercase {
-                font-size: 20px;
-            }
-
             .title p {
-                font-size: 40px;
+                font-size: 20px;
                 line-height: 70px;
                 position: absolute;
-                bottom: 50px;
-                left: 20%;
+                bottom: 200px;
+                left: 0%;
             }
 
             article {
@@ -54,12 +63,14 @@
             .event1 .even1-1 {
                 width: 100%;
                 clear: both;
+                text-align: left;
             }
 
             .event1 .even1-1 p {
-                font-size: 40px;
-                line-height: 70px;
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
+                text-align: justify;
             }
 
             .event1 .even1-2 {
@@ -69,9 +80,9 @@
             }
 
             .event1 .even1-2 img {
-                width: 1000px;
+                width: 400px;
                 height: auto;
-                padding: 10%;
+                padding: 0%;
                 box-shadow: none;
             }
 
@@ -79,7 +90,7 @@
                 padding: 0px;
                 clear: both;
                 width: 100%;
-                height: 50%;
+                height: 30%;
             }
 
             .event2 .event2-1 {
@@ -94,15 +105,15 @@
             }
 
             .event2 .event2-1 img {
-                width: 1000px;
+                width: 400px;
                 height: auto;
-                padding: 20%;
+                padding: 5%;
                 box-shadow: none;
             }
 
-            .event2 .event2-2  p {
-                font-size: 40px;
-                line-height: 70px;
+            .event2 .event2-2 p {
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
@@ -116,8 +127,8 @@
             .event3 .p1 {
                 width: 100%;
                 clear: both;
-                font-size: 40px;
-                line-height: 70px;
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
@@ -125,24 +136,32 @@
                 padding-top: 100px;
                 width: 100%;
                 clear: both;
-                font-size: 40px;
-                line-height: 70px;
+                font-size: 14px;
+                line-height: 40px;
                 font-weight: 100;
             }
 
             .event3 .img {
                 padding-top: 100px;
-                padding-left: 150px;
+                padding-left: 5px;
             }
 
             .event3 .img img {
-                width: 1000px;
+                width: 400px;
                 height: auto;
                 padding-top: 100px;
             }
 
-            .event3 .img a {
-                padding-left: 200px;
+            .landautien {
+                font-size: 30px;
+            }
+
+            .even1-1 .up-top {
+                font-size: 40px;
+            }
+
+            .event2-2 .up-top1 {
+                font-size: 40px;
             }
         }
     </style>
@@ -213,9 +232,9 @@
 
         <div class="event1">
             <div class="even1-1">
-                <h2 style="font-size: 85px;font-weight: 200" class="up-top">Năm 2016</h2>
-                <h3 style="font-size: 60px;font-weight: 200">Monsoon</h3>
-                <h3 style="font-size: 60px;padding-bottom: 35px;font-weight: 200">Music Festival</h3>
+                <a class="up-top">Năm 2016</a>
+                <a class="landautien">Monsoon</a>
+                <a class="landautien">Music Festival</a>
                 <p>chính thức trở lại với tên gọi Lễ hội Âm nhạc Quốc tế Gió mùa 2016 cùng Tuborg - Monsoon Music
                     Festival
                     2016 by Tuborg, đánh dấu sự tham gia đồng hành của nhãn hàng bia Tuborg đến từ Đan Mạch trong
@@ -231,10 +250,10 @@
                 <img width="679px" height="519px" src="images/2016-2.jpg">
             </div>
             <div class="event2-2">
-                <h2 style="font-size: 85px;font-weight: 200" class="up-top">Trong 3 ngày</h2>
-                <h3 style="font-size: 60px;font-weight: 200">21 - 22 - 23 / 10 / 2016</h3>
-                <h3 style="font-size: 60px;padding-bottom: 35px;font-weight: 200">tại Hoàng thành Thăng Long, Hà
-                    Nội</h3>
+                <a class="up-top1">Trong 3 ngày</a><br>
+                <a class="landautien">21 - 22 - 23 / 10 / 2016</a><br>
+                <a class="landautien">tại Hoàng thành Thăng Long, Hà
+                    Nội</a>
                 <p>Monsoon tiếp tục đem tới cho công chúng yêu nhạc Việt Nam và khu vực những nghệ sĩ tài năng ở đẳng
                     cấp cao của Việt Nam và Thế giới. Với sự tham gia của nhóm nhạc huyền thoại Scorpions và rất nhiều
                     tài năng trẻ khác, Monsoon tự tin đánh dấu tuổi thứ ba của mình với một không gian âm nhạc đạt tới
